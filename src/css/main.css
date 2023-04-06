@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 html {
     line-height: 1.15;
 }
@@ -7,16 +7,15 @@ html {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "RocknRoll One", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 body {
-    background: linear-gradient( 190deg, rgb(134, 123, 205) 0%, rgb(106, 90, 171) 100%);
+    background-image: url("https://images.unsplash.com/photo-1644329843491-99edfc83de04?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHRvJTIwZG98ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    color: #222;
-    overflow: hidden;
+    color: #fff;
 }
 
 .App {
@@ -47,16 +46,17 @@ body {
     border-radius: 5px;
     padding: 0.5rem 1rem;
     align-self: center;
+    color: #333;
 }
 
 .todo-input:focus {
     outline: none;
-    border: 2px solid rgb(67, 58, 168);
+    border: 2px solid rgb(48, 46, 72);
 }
 
 .add-btn {
     margin-left: 1rem;
-    background-color: #271c6c;
+    background-color: #1a74f2;
     color: #e1ebfd;
     border-radius: 50%;
     border: 2px solid #e1ebfd;
@@ -90,6 +90,8 @@ body {
     border-radius: 20px;
     cursor: pointer;
     border: none;
+    background-color: #366df7;
+    color: #fff;
 }
 
 .displaytodos .buttons button:focus {
@@ -111,8 +113,7 @@ body {
 .card {
     display: flex;
     flex-direction: column;
-    background: rgb(180, 182, 218);
-    background: radial-gradient( circle, hsla(237, 34%, 78%, 0.9) 0%, hsla(219, 88%, 94%, 0.9) 100%);
+    background-color: rgba(255, 255, 255, 0.8);
     margin: 0 1rem 1rem 0;
     height: 8rem;
     width: 18rem;
@@ -125,8 +126,8 @@ body {
     padding: 0.5rem;
     border-radius: 8px;
     border: none;
-    background-color: #e1ebfd;
-    color: #271c6c;
+    background-color: transparent;
+    color: #333;
     height: 70%;
 }
 
@@ -146,7 +147,7 @@ body {
     margin: 0 0.6rem;
     font-size: 1.4rem;
     cursor: pointer;
-    color: #271c6c;
+    color: #1979f8;
     background-color: transparent;
 }
 
